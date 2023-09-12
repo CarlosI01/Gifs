@@ -1,0 +1,12 @@
+<ul class="row">
+    <div *ngFor="let gif of cardList" class="col-md-3 col-sm-6">
+      <div class="card mb-2 text-center bg-dark">
+        <app-lazi-image [url]="gif.images.downsized_medium.url" [tag]="gif.title" ></app-lazi-image>
+        <div class="card-body text-white">
+          <p class="card-text gif-title">{{gif.title ||  'No found'}}</p>
+        </div>
+      </div>
+    </div>
+  </ul>
+ 
+<!-- Cambiado  -->

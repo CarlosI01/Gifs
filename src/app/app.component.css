@@ -1,0 +1,20 @@
+/* Estilos para el contenedor principal */
+.d-flex {
+    display: flex;
+  }
+  
+  /* Estilos para el Sidebar */
+  .sidebar {
+    width: 250px; /* Ancho deseado para el sidebar */
+    position: fixed; /* Fijar la posición del sidebar */
+    top: 0; /* Posición en la parte superior */
+    bottom: 0; /* Cubre toda la altura disponible */
+    left: 0; /* Posición en la izquierda */
+    z-index: 1; /* Colocar el sidebar por encima del contenido */
+  }
+  
+  /* Estilos para el contenido del Home */
+  .flex-fill {
+    margin-left: 250px; /* Margen izquierdo igual al ancho del sidebar */
+  }
+  

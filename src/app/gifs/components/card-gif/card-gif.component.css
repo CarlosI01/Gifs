@@ -1,0 +1,14 @@
+.gif-image {
+    width: 100%; 
+    height: auto; 
+    max-height: 200px; 
+  }
+
+.gif-title {
+    font-size: 14px; 
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    max-width: 100%; 
+  }
+  
